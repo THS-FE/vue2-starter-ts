@@ -21,8 +21,6 @@ module.exports = {
     ecmaVersion: 2020,
   },
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'linebreak-style': 'off', // 关闭换行风格检测
     'max-len': ['warn', { code: 160 }], // 一行最大长度，单位为字符
     '@typescript-eslint/interface-name-prefix': 'off', // 可让接口名称使用I作为前缀

@@ -78,10 +78,6 @@ import {
 } from 'element-ui';
 
 // import Scrollbar from '@/node_modules/element-ui/types';
-
-
-import '@/assets/styles/common.scss';
-
 // Vue.use(Scrollbar);
 // Vue.use(Pagination);
 // Vue.use(Dialog);

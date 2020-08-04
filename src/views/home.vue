@@ -2,6 +2,7 @@
   <div>
     <hello-world msg="Welcome to Your Vue.js App"/>
     <el-button type="primary">22</el-button>
+    <img src='@/assets/images/exception/403.png'>
   </div>
 </template>
 

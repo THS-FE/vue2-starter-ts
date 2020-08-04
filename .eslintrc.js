@@ -25,6 +25,7 @@ module.exports = {
     'max-len': ['warn', { code: 160 }], // 一行最大长度，单位为字符
     '@typescript-eslint/interface-name-prefix': 'off', // 可让接口名称使用I作为前缀
     '@typescript-eslint/no-explicit-any': 'off', // 可申明any类型
+    '@typescript-eslint/explicit-module-boun':'off',
     'import/no-unresolved': 'off'
   },
 };

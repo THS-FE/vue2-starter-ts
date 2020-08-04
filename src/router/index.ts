@@ -1,14 +1,15 @@
 import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
-import Home from '../views/home.vue';
+import HomeRoutes from './home';
+import Login from '../views/login.vue';
 
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
   {
     path: '/',
-    name: 'Home',
-    component: Home,
+    name: 'Login',
+    component: Login,
   },
   // {
   //   path: '/about',
@@ -23,7 +24,7 @@ const routes: Array<RouteConfig> = [
 const router = new VueRouter({
   mode: 'hash',
   base: process.env.BASE_URL,
-  routes,
+  routes: [...routes, ...HomeRoutes],
 });
 
 export default router;

@@ -13,7 +13,8 @@
   </el-form>
 </template>
 <script>
-import { createNamespacedHelpers, defineComponent } from 'vuex';
+import { createNamespacedHelpers } from 'vuex';
+import { defineComponent } from '@vue/composition-api';
 import { debounce } from '@/utils/common';
 import validator from '@/utils/validator';
 
